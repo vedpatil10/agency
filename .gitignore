@@ -1,0 +1,34 @@
+# Node / build
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.dist/
+build/
+
+# Composer / vendor
+vendor/
+
+# OS, editors, IDEs
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.*
+
+# PHP / test artifacts
+.phpunit.result.cache
+
+# WordPress uploads/other dynamic files - exclude if you don't want to track them
+uploads/
+
+# Logs
+logs/
+*.log
+
+# Temporary
+*.tmp
+.cache/
